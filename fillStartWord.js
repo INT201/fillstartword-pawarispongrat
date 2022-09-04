@@ -1,4 +1,4 @@
-//const { template } = require('@babel/core')
+const { template } = require('@babel/core')
 
 function fillStartWord(startWord, word) {
 
@@ -10,10 +10,5 @@ else if(word.startsWith(startWord)){
 }
   return startWord + word
 }
-console.log(fillStartWord("newton","newton is gay"));
-//if(word === null && undefined){
-//  console.log("undefined")
 
-
-
-//module.exports = fillStartWord
+module.exports = fillStartWord
